@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>21015361d_Drinking Ordering System</title>
+        <link rel="stylesheet" href="styles/order.css">
+    </head>
+    <body>
+        <header>
+            <h1>Drinking Ordering System</h1>
+        </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="currentPage"><a href="#">Order</a></li>
+                    <li><a href="#">Menu</a></li>
+                </ul>
+            </nav>
+            <main>
+                <form action="#" method="POST" >
+                    <div>
+                        <label>Name:</label>
+                        <input type="text" required id="name" name="name">
+                    </div>
+                    <div class="drink-select">
+                        <label for="drink">Drink:</label>
+                        <select id="drink" name="drink">
+                            <option>Bubble Milktea</option>
+                            <option>Iced Latte</option>
+                            <option>Pineapple Juice</option>
+                        </select>
+                    </div>
+                    <div class="size-select">                       
+                        <label for="size">Size:</label>
+                        <label for="small">
+                            <input type="radio" id="small" value="samll" name="size">Small
+                        </label>
+                        <label for="medium">
+                            <input type="radio" id="medim" value="medium" name="size">Medium
+                        </label>
+                        <label for="large">
+                            <input type="radio" id="large" value="large" name="size">Large
+                        </label>                        
+                    </div>
+                    <div>
+                        <input type="submit" value="Place Order">
+                    </div>
+                </form>
+            </main>
+            </main>
+            <footer>
+                <h6>21015361d Choy Sai Yin - EIE4432 Lab 1 Project</h6>
+
+            </footer>
+    </body>
+</html>
